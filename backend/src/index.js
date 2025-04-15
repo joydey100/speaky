@@ -19,7 +19,9 @@ app.use(cookieParser());
 app.use(
   cors({
     origin:
-      process.env.NODE_ENV === "development" ? "http://localhost:5173" : "/",
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:5173"
+        : "https://speaky-9qys.onrender.com/",
     credentials: true,
   })
 );
