@@ -117,10 +117,7 @@ export const useAuthStore = create((set, get) => ({
   updateProfilePic: async (data) => {
     set({ isUpdatingProfile: true });
     try {
-      const response = await axiosInstance.put(
-        "/auth/update-profile-pic",
-        data
-      );
+      const response = await axiosInstance.put("/auth/updateprofilepic", data);
       set({ user: response.data.user });
       Swal.fire({
         title: "Profile updated!",
@@ -141,10 +138,7 @@ export const useAuthStore = create((set, get) => ({
   updateProfileName: async (data) => {
     set({ isUpdatingName: true });
     try {
-      const response = await axiosInstance.put(
-        "/auth/update-profile-name",
-        data
-      );
+      const response = await axiosInstance.put("/auth/updateprofilename", data);
       set({ user: response.data.user });
       Swal.fire({
         title: "Profile updated!",
