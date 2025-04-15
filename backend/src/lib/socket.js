@@ -11,10 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin:
-      process.env.NODE_ENV === "development"
-        ? "http://localhost:5173"
-        : "https://speaky-9qys.onrender.com/",
+    origin: "http://localhost:5173",
     credentials: true,
   },
 });
