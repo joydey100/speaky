@@ -17,7 +17,7 @@ export const useChatStore = create((set, get) => ({
       set({ users: response.data.users });
     } catch (error) {
       console.log("Error getting users:", error.message);
-      
+
       Swal.fire({
         title: "Oops!",
         text: `${error.response.data.message}`,
@@ -31,7 +31,7 @@ export const useChatStore = create((set, get) => ({
   getMessages: async (id) => {
     set({ isMessagesLoading: true });
     try {
-      const response = await axiosInstance.get(`/message/${id}`);
+      const response = await axiosInstance.get(`/message/conversation/${id}`);
       set({ messages: response.data.messages });
     } catch (error) {
       Swal.fire({
