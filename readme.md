@@ -79,16 +79,18 @@ git clone https://github.com/joydey100/speaky.git
 cd speaky
 ```
 
-### 🔧 Backend Setup
+---
+
+## 🔧 Backend Setup
 
 ```bash
 npm install
 
 ```
 
-# Create a .env file inside the backend folder with the following contents:
+Create a .env file inside the backend folder with the following contents:
 
-```bash
+```yaml
 MONGODB_URI = your_mongodb_connection_string
 JWT_SECRET = your_jwt_secret_key
 NODE_ENV = development
@@ -98,7 +100,7 @@ CLOUDINARY_API_KEY = your_cloudinary_api_key
 CLOUDINARY_API_SECRET = your_cloudinary_api_secret_key
 ```
 
-# Start the backend server:
+Start the backend server:
 
 ```bash
 npm run start
@@ -112,7 +114,7 @@ npm run dev
 
 ```
 
-### 💻 Frontend Setup
+## 💻 Frontend Setup
 
 ```bash
 cd ../frontend
@@ -121,6 +123,6 @@ npm run dev
 
 ```
 
-# The frontend will run by default at http://localhost:5173
+The frontend will run by default at http://localhost:5173
 
 ---
