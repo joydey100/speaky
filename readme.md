@@ -82,7 +82,7 @@ git clone https://github.com/joydey100/speaky.git
 cd speaky
 ```
 
----
+
 
 ### 🛡️ Setup .env file
 
@@ -98,7 +98,7 @@ CLOUDINARY_API_KEY = your_cloudinary_api_key
 CLOUDINARY_API_SECRET = your_cloudinary_api_secret_key
 ```
 
----
+
 
 ### 🏗️ Build the app
 
@@ -107,7 +107,7 @@ npm run build
 
 ```
 
----
+
 
 ### 🚀 Start the app
 
@@ -116,4 +116,3 @@ npm run start
 
 ```
 
----
