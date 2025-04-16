@@ -4,7 +4,7 @@ A real-time full-stack chat application with user authentication, profile manage
 
 ## 🔗 Live Demo
 
-👉 [Speaky Chat App](https://speaky-9qys.onrender.com/)
+👉 <a href="https://speaky-9qys.onrender.com" target="_blank" rel="noopener noreferrer"> Speaky Chat App </a>
 
 ## 🚀 Features
 
