@@ -89,8 +89,8 @@ Create a .env file in the speaky folder (root directory) with the following cont
 ```bash
 MONGODB_URI = your_mongodb_connection_string
 JWT_SECRET = your_jwt_secret_key
-NODE_ENV = development
-PORT = 3000
+NODE_ENV = your_NODE_ENV_type
+PORT = your_server_running_port
 CLOUDINARY_CLOUD_NAME = your_cloudinary_cloud_name_key
 CLOUDINARY_API_KEY = your_cloudinary_api_key
 CLOUDINARY_API_SECRET = your_cloudinary_api_secret_key
