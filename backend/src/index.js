@@ -35,5 +35,5 @@ app.get("/{*splat}", (req, res) => {
 
 server.listen(PORT, () => {
   connectDB();
-  // console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`✅ Server running at http://localhost:${PORT}`);
 });
