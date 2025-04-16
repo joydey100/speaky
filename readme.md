@@ -4,7 +4,7 @@ A real-time full-stack chat application with user authentication, profile manage
 
 ## 🔗 Live Demo
 
-👉 <a href="https://speaky-9qys.onrender.com" target="_blank" rel="noopener noreferrer"> Speaky Chat App </a>
+👉 [Speaky Chat App]("https://speaky-9qys.onrender.com")
 
 ## 🚀 Features
 
@@ -82,8 +82,6 @@ git clone https://github.com/joydey100/speaky.git
 cd speaky
 ```
 
-
-
 ### 🛡️ Setup .env file
 
 Create a .env file in the speaky folder (root directory) with the following contents:
@@ -98,8 +96,6 @@ CLOUDINARY_API_KEY = your_cloudinary_api_key
 CLOUDINARY_API_SECRET = your_cloudinary_api_secret_key
 ```
 
-
-
 ### 🏗️ Build the app
 
 ```bash
@@ -107,12 +103,9 @@ npm run build
 
 ```
 
-
-
 ### 🚀 Start the app
 
 ```bash
 npm run start
 
 ```
-
