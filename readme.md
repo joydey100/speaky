@@ -4,7 +4,7 @@ A real-time full-stack chat application with user authentication, profile manage
 
 ## 🔗 Live Demo
 
-👉 [Speaky Chat App](https://your-live-link.com)
+👉 [Speaky Chat App](https://speaky-9qys.onrender.com/)
 
 ## 🚀 Features
 
@@ -21,6 +21,7 @@ A real-time full-stack chat application with user authentication, profile manage
 ## 🛠️ Tech Stack
 
 ### Frontend:
+
 - **React**
 - **Tailwind CSS**
 - **DaisyUI**
@@ -28,9 +29,9 @@ A real-time full-stack chat application with user authentication, profile manage
 - **Socket.io Client**
 
 ### Backend:
+
 - **Node.js**
 - **Express**
 - **MongoDB** (with Mongoose)
 - **Socket.io Server**
 - **JWT** (Authentication)
-

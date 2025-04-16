@@ -20,8 +20,6 @@ const ChatContainer = () => {
   const { user } = useAuthStore();
   const messageEndRef = useRef(null);
 
-  console.log(messages);
-
   // get messages of selected user
 
   useEffect(() => {
